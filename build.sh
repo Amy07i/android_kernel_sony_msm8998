@@ -30,4 +30,4 @@ cp ${OUT_DIR}/kernel/out/drivers/staging/qcacld-3.0/wlan.ko ${OUT_DIR}/AnyKernel
 cd ${OUT_DIR}/AnyKernel3
 mkdir -p ${OUT_DIR}/upload
 rm -rf ${OUT_DIR}/upload/*
-zip -r ${OUT_DIR}/upload/StockPlusKernel-XZ1-Dual-${COMPILE_DATE}.zip *
+zip -r ${OUT_DIR}/upload/StockPlusKernel-XZ1-Dual-HMP-${COMPILE_DATE}.zip *
